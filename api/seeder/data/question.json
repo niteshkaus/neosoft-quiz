@@ -1,0 +1,42 @@
+[
+    {
+        "_id": "5ef7305a7fd0172e94d5d070",
+        "question": "What is the capital of India?",
+        "option1": "Delhi",
+        "option2": "Mumbai",
+        "option3": "Kolkata",
+        "option4": "Bangalore"
+    },
+    {
+        "_id": "5ef7305a7fd0172e94d5d069",
+        "question": "Who is the home minister of india?",
+        "option1": "Amit Shah",
+        "option2": "Rajnath Singh",
+        "option3": "Arun Jaitley",
+        "option4": "Rahul Gandhi"
+    },
+    {
+        "_id": "5ef7305a7fd0172e94d5d062",
+        "question": "Who is the president of US?",
+        "option1": "Trump",
+        "option2": "Modi",
+        "option3": "Imran Khan",
+        "option4": "Obama"
+    },
+    {
+        "_id": "5ef7305a7fd0172e94d5d063",
+        "question": "Who is defence minister of india",
+        "option1": "Rajnath Singh",
+        "option2": "Amit Shah",
+        "option3": "Rahul Gandhi",
+        "option4": "Arvind Kejriwal"
+    },
+    {
+        "_id": "5ef7305a7fd0172e94d5d064",
+        "question": "Who is foreign minister of india?",
+        "option1": "Subrahmanyam Jaishankar",
+        "option2": "Amit Shah",
+        "option3": "Rahul Gandhi",
+        "option4": "Arvind Kejriwal"
+    }
+]

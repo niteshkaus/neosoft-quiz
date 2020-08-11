@@ -1,0 +1,26 @@
+<div class="container py-5">
+  <div class="row justify-content-right">
+    <div class="col-md-6">
+      <mat-card> 
+        <h1>Login</h1>
+        <form *ngIf="!isLoading" (submit)="onLogin(loginForm)" #loginForm="ngForm">
+          <mat-form-field>
+            <input 
+            matInput 
+            type="email"
+            name="email" 
+            ngModel
+            placeholder="Email"
+            required
+            email
+            #emailInput=ngModel>
+            <mat-error *ngIf="emailInput.invalid">Please enter a valid Email Id</mat-error>
+          </mat-form-field>
+         
+          <button mat-flat-button type="submit" color="primary">LOGIN</button>
+        </form>
+        <mat-progress-bar *ngIf="isLoading" mode="indeterminate" color="warn"></mat-progress-bar>
+      </mat-card>
+    </div> 
+  </div>
+</div>
